@@ -15,3 +15,10 @@ import "phoenix_html"
 //
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
+
+import Vue from 'vue'
+import AppComponent from './vue/AppComponent.vue'
+
+new Vue({
+  render: h => h(AppComponent)
+}).$mount('#app')
