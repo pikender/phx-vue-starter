@@ -44,4 +44,6 @@ nodejs 10.15.0
 - mix ecto.create
 - iex -S mix phx.server
 
+## Vue Integration changes
 
+- Check diff [Vue Integration](https://github.com/pikender/phx-vue-starter/pull/1/files)
