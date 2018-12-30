@@ -44,4 +44,7 @@ nodejs 10.15.0
 - mix ecto.create
 - iex -S mix phx.server
 
+## Install vue and dependencies
 
+- (cd assets && npm install vue --save)
+- (cd assets && npm install vue-loader vue-template-compiler -D)
